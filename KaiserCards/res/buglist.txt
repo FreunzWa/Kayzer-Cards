@@ -1,0 +1,5 @@
+BUGLIST
+=======
+
+1) can walk 1 pixel into blocks
+    - due to the current collision checking method wherein the coords are all indented by 1 pixel.

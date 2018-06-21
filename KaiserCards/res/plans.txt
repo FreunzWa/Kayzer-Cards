@@ -1,0 +1,56 @@
+
+
+implementation list:
+
+#Overworld
+==========
+X player movement
+X animtation system
+X basic map generation (using the map creator software)
+
+X displaying messages on screen {60 mins}
+* talking to people {30 mins}
+    - each NPC should be initialised with a message
+    - this will require adding a tags system to the map maker
+* talking to someone to start a duel. {20 mins}
+    - there should be a special part of the talk function of the character to have duel produced at the end,
+    or give items to teh player etc.
+
+Battle screen
+=============
+* layout, can see your hand, both of the fields and your deck space. {30}
+* deckcontainers all drawing their cards in appropriate locations.{60}
+ - card drawing {40}
+ - drawing by location {20}
+* automatically run through the duel and return to overworld map{60}
+* then ask for userInput{60}
+
+Menus
+=====
+* basic menu system {50}
+* Deck viewing system {60}
+* Deck customisation {60}
+* Acquiring new cards. {60}
+* Doors and teleportation system {40}
+
+Beta
+====
+* make a title screen for the game
+
+Story
+=====
+* make story elements
+
+Finishing
+=========
+* make save function
+
+Extending
+=========
+* Network, multiplayer functionality.
+
+
+Map generation codes:
+
+b - solid block. non animated, cannot be passed through.
+a - animated tile.
